@@ -1,24 +1,32 @@
+(function(){
 
-  let mensaje: string = "Hola";
-  let numero: number = 123;
-  let booleano: boolean = false;
-  let hoy: Date = new Date();
+    
+    let mensaje: string = 'Hola';
+    let numero : number = 123;
+    let booleano: boolean = true; // false
+    let hoy: Date = new Date();
 
-  let cualquierTipoDato: string | number | Date | boolean;
-  cualquierTipoDato = mensaje;
-  cualquierTipoDato = numero;
-  cualquierTipoDato = hoy;
-  cualquierTipoDato = booleano;
 
-  let spiderMan = {
-    nombre: "Jhosep",
-    edad: 30,
-  };
+    let cualquiercosa;
+    cualquiercosa = mensaje;
+    cualquiercosa = numero;
+    cualquiercosa = booleano;
+    cualquiercosa = hoy;
 
-  spiderMan = {
-    nombre: "Juan ",
-    edad: 50,
-  };
+    let spiderman = {
+        nombre: 'Peter',
+        edad: 30
+    };
+    
+    spiderman = {
+        nombre: 'Juan',
+        edad: 40,
+    };
+    
 
-  console.log("SpiderMan: ", spiderMan);
-  console.log("cualquier Tipo de Dato: ", cualquierTipoDato);
+    
+
+})();
+
+
+

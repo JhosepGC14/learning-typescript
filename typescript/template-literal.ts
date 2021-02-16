@@ -1,13 +1,28 @@
-(function () {
-  const nombre: string = "Jhosep";
-  const apellido: string = "Guadalupe";
-  const edad: number = 22;
-  const salida = `${nombre} ${apellido} y tiene ${edad}`;
-  const salida2 = `${getAge()}`;
+(function(){
 
-  function getAge() {
-    return 1 + 1 + 1 + 1;
-  }
-  console.log("Datos: ", salida);
-  console.log("Datos 2: ", salida2);
+    function getEdad() {
+        return 100 + 100 + 300;
+    }
+
+    const nombre   = 'Fernando';
+    const apellido = 'Herrera';
+    const edad     = 33;
+
+    // const salida = nombre + apellido + edad;
+    // const salida = nombre + " " + apellido + " ( " + edad + " )";
+    const salida = `
+        ${ nombre }
+        ${ apellido }
+        ( ${ getEdad() } )`;
+    // Fernando Herrera (Edad: 33)
+
+
+
+    console.log(salida);
+
+    
+
 })();
+
+
+
